@@ -1,4 +1,4 @@
-package com.example.kotlinpracticeground.practise
+package com.example.kotlinpracticeground.practise.functions
 
 /**
 An inline function is a function that gets expanded at compile time,
