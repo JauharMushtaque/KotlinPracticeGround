@@ -5,7 +5,14 @@ package com.example.kotlinpracticeground.practise.functions.scope_functions
  * The also function in Kotlin is a scope function that allows you to perform additional operations on an object
  * within a lambda block without modifying it.
  *
- * It is mainly used for logging, debugging, or performing side effects while keeping the original object reference intact.
+ * It is mainly used for logging, debugging, or performing side effects while keeping the original object reference intact.*/
+
+
+/**
+ * When to Use also?
+ * Logging and debugging values without modifying them.
+ * Performing side effects (e.g., saving to a database, analytics tracking).
+ * Chaining operations without affecting the object itself.
  */
 
 
@@ -45,11 +52,7 @@ package com.example.kotlinpracticeground.practise.functions.scope_functions
 
 fun main() {
     var name = "Tuba"
-    val secondName = name.let {
-        println(it)
-        //"rahul"
-        3
-    }
+    val secondName = "Jauhar"
     println(secondName)
 
     val exampleAlso = name.also {
